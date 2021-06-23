@@ -9,12 +9,12 @@
 # For more information, see: https://docs.gitlab.com/ee/ci/yaml/README.html#stages
 
 # Es wird festgelegt, dass das Programm mit Python in der Version 3.8 ausgeführt wird.
-image: "python:3.8"
+image: "python:3.8.10"
 
 # Es wird sichergestellt, dass die Umgebung für die Ausführung des Programmes bereit ist.
 before_script:
  - python --version
- - pip install -r requirements.txt
+# - pip install -r requirements.txt
 
 # Es gibt 3 Stages: Build, Test und Deploy
 stages:          
