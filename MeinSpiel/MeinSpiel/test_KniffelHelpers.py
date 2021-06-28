@@ -2,6 +2,7 @@ from checkRules import CheckDreierpasch, CheckViererpasch, CheckElement, CheckKn
 from kniffelHelpers import addAll, addElement, evaluateTotalPoints, evaluateWinner, checkSortOut, evaluateHighestPoints
 
 def test_addAll():
+    """Test, der die Funktion "AddAll" prüft"""
     l = [1,2,3,4,5]
     assert(addAll(l) == 15)
 
