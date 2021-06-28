@@ -21,6 +21,7 @@ def getColumnDescription(i):
     if i == 12: return "Chance (12)      "
 
 def kniffelblock_to_String(kniffelblock):
+    """Wandelt den Kniffelblock in einen ausgebbaren String um"""
     columns = [get_column(kniffelblock, j) for j in range(13)]
     return [" | ".join(line) for line in columns]
 
