@@ -24,6 +24,7 @@ def game_round(kniffelblock, player):
 
 
 def tryFillField(kniffelblock, dices, field, player):
+    """prüft einige Bedingungen, wenn diese erfüllt wird das Feld befüllt"""
     if move_allowed(kniffelblock, player, field, dices) == True:
         points = evaluatePoints(field, dices)
         return setField(kniffelblock, player, field, points)
