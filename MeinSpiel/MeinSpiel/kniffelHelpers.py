@@ -2,7 +2,7 @@ from checkRules import checkRuleConform
 from random import randrange
 
 """Listenfunktionen"""
-'''!'''
+
 def addAll(l):
     """addiert alle Elemente aus der Liste"""
     if l == []:
