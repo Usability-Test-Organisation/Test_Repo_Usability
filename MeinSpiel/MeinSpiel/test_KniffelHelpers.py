@@ -5,7 +5,7 @@ def test_addAll():
     """Test, der die Funktion "AddAll" prüft"""
     l = [1,2,3,4,5]
     assert(addAll(l) == 15)
-
+“””!”””
 def test_AddElement():
     l = [2,5,3,5,6]
     assert(addElement(l,5) == 10)
