@@ -6,7 +6,7 @@ def get_column(a, i):
     return [a[j][i] for j in range(len(a))]
 
 def getColumnDescription(i):
-    """liefert die passende Beschreibung der Zeile zurück"""
+    ""liefert die passende Beschreibung der Zeile zurück""
     if i == 0: return "Einser (0)       "
     if i == 1: return "Zweier (1)       "
     if i == 2: return "Dreier (2)       "
