@@ -1,5 +1,5 @@
 """ Kniffelblock anzeigen """
-
+test
 def get_column(a, i):
     '''Erwartet ein zweidimensionales Array a und eine Zahl i.
     Liefert die i-te Spalte aus a.'''
