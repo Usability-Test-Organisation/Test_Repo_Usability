@@ -27,6 +27,7 @@ def test_CheckViererpasch():
     l = [2,4,2,5,1]
     assert(CheckViererpasch(l) == False)
 
+"""!"""
 def test_CheckElement():
     l = [2,1,4,1,6]
     assert(CheckElement(l, 2) == True)
