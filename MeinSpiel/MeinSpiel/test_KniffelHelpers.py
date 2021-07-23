@@ -1,6 +1,6 @@
 from checkRules import CheckDreierpasch, CheckViererpasch, CheckElement, CheckKniffel, CheckFullHouse, CheckSmallStreet, CheckBigStreet
 from kniffelHelpers import addAll, addElement, evaluateTotalPoints, evaluateWinner, checkSortOut, evaluateHighestPoints
-
+!
 def test_addAll():
     """Test, der die Funktion "Add All" prüft"""
     l = [1,2,3,4,5]
