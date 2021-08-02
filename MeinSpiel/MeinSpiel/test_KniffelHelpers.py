@@ -11,6 +11,7 @@ def test_AddElement():
     assert(addElement(l,5) == 10)
     assert(addElement(l,2) == 2 )
 
+"""!"""
 """ KONDITIONEN / REGELN PRUEFEN - Test"""
 
 def test_CheckDreierpasch():
